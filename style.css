@@ -4,6 +4,12 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.h-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header-logo{
     height: 30px;
     width: 30px;
@@ -32,6 +38,7 @@ body{
 .header{
     justify-content: space-between;
     margin: 8px 300px;
+    flex: 1;
 }
 
 .header-links{
@@ -73,6 +80,12 @@ button{
     font-size: 18px;
 }
 
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .introduction{
     justify-content: space-between;
     flex-wrap: wrap;
@@ -104,7 +117,7 @@ button{
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
-    margin: 32px;
+    margin: 50px;
 }
 
 .intro-img{
@@ -123,9 +136,12 @@ button{
 .body{
     display: flex;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 12px;
     justify-content: center;
     flex: 1;
+    margin-bottom: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .info{
@@ -133,7 +149,41 @@ button{
     flex-direction: column;
     align-items: center;
     padding: 8px;
+    margin: 12px;
+    
 }
+
 .text-body{
+    text-align: center;
+    width: 250px;
     padding: 8px;
+}
+
+.quote-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.centering{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 128px 0px;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 428px;
+}
+
+.author{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800px;
+    justify-content: end;
+    padding: 12px 458px;
 }
